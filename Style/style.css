@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: dimgray;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* max-width: 1200px; */
@@ -34,6 +34,27 @@ a{
     color: white;
 }
 
+#inicio:hover{
+    color:black;
+    font-weight: bold;
+}
+
+#agendar:hover{
+    color:black;
+    font-weight: bold;
+}
+
+#contato{
+    border: 2px solid rgb(48, 1, 219);
+    padding: 10px;
+    border-radius:20px;
+}
+
+#contato:hover{
+     background-color: black;
+     color: white;
+}
+
 main{
     display: flex;
     flex-direction: row;
@@ -49,9 +70,9 @@ h2{
 
 h2 span{
     display: inline-block;
-    font-weight:bold;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right , #d0312d 30%, #FFFFFF 40%, #2832C2 30%);
+    background: linear-gradient(to top ,#FFFFFF 50%, #000 50%);
     background-clip:text;
     -webkit-background-clip: text;
     color: transparent;
@@ -62,7 +83,7 @@ h2 span{
     display:inline-block;
     font-weight: bold;
     font-family: Arial;
-    background: linear-gradient(to top, #d0312d 31%, #FFFFFF 36% , #2832C2 28%);
+    background: linear-gradient(to top, #000 50%, #FFFFFF 50%);
     background-clip:text;
     -webkit-background-clip: text;
     color: transparent;
@@ -71,6 +92,7 @@ h2 span{
 p{
     line-height:20px; /*espaçametro de uma linha a outra*/
     max-width: 500px; /*tamanho que esse texto terá no maximo*/
+    color: #1c1c1c;
 
 }
 
@@ -87,6 +109,8 @@ form{
 form [type="submit"]{
     height: 50px;
     width: 50%;
+    background-color: black;
+    color: white;
     font-weight: bold;
 }
 
